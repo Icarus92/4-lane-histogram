@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\yagehu\Google Drive\UCD\2017_Spring\EEC180B\Lab 5\projects\EEC180B_Lab_5\simulation\modelsim
+vhistogram_lane
+!i10b 1
+Z1 !s100 _BORUGM_IzLV30InXD=X;3
+Z2 I:kL6o6]0e02AZ7T38bCoN2
+Z3 Vl01CUlF7l4MWGGW7bQe=L1
+Z4 dC:\Users\yagehu\Google Drive\UCD\2017_Spring\EEC180B\Lab 6\projects\histogram\simulation\modelsim
+Z5 w1489823083
+Z6 8C:/Users/yagehu/Google Drive/UCD/2017_Spring/EEC180B/Lab 6/projects/histogram/source/histogram_lane.v
+Z7 FC:/Users/yagehu/Google Drive/UCD/2017_Spring/EEC180B/Lab 6/projects/histogram/source/histogram_lane.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1489823479.051000
+!s107 C:/Users/yagehu/Google Drive/UCD/2017_Spring/EEC180B/Lab 6/projects/histogram/source/histogram_lane.v|
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/yagehu/Google Drive/UCD/2017_Spring/EEC180B/Lab 6/projects/histogram/source/histogram_lane.v|
+!s101 -O0
+Z10 o-work work -O0
+vhistogram_lane_tb
+Z11 IMCX52238L`LflA;5HdFdB0
+Z12 VPkgQJU3ON]fIeRnA87bf20
+R4
+Z13 w1489823476
+Z14 8C:/Users/yagehu/Google Drive/UCD/2017_Spring/EEC180B/Lab 6/projects/histogram/tb/histogram_lane_tb.v
+Z15 FC:/Users/yagehu/Google Drive/UCD/2017_Spring/EEC180B/Lab 6/projects/histogram/tb/histogram_lane_tb.v
+L0 1
+R8
+r1
+31
+Z16 !s90 -reportprogress|300|-work|work|C:/Users/yagehu/Google Drive/UCD/2017_Spring/EEC180B/Lab 6/projects/histogram/tb/histogram_lane_tb.v|
+R10
+!i10b 1
+Z17 !s100 `<?Zce3>QU0CmYo_z3W>d3
+!s85 0
+Z18 !s108 1489823478.984000
+Z19 !s107 C:/Users/yagehu/Google Drive/UCD/2017_Spring/EEC180B/Lab 6/projects/histogram/tb/histogram_lane_tb.v|
+!s101 -O0

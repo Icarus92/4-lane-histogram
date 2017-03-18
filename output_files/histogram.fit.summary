@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Mar 18 02:03:31 2017
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : histogram
+Top-level Entity Name : histogram_top
+Family : Cyclone II
+Device : EP2C35F672C6
+Timing Models : Final
+Total logic elements : 1,254 / 33,216 ( 4 % )
+    Total combinational functions : 1,181 / 33,216 ( 4 % )
+    Dedicated logic registers : 788 / 33,216 ( 2 % )
+Total registers : 788
+Total pins : 5 / 475 ( 1 % )
+Total virtual pins : 0
+Total memory bits : 49,152 / 483,840 ( 10 % )
+Embedded Multiplier 9-bit elements : 0 / 70 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

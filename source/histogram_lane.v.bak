@@ -1,0 +1,23 @@
+module histogram_lane (
+	input clock,
+	input reset,
+	input enable,
+	input [7:0] data_in,
+	input [2:0] hist_addr,
+	output reg [13:0] hist_out);
+
+	reg [13:0] bins [7:0];
+	integer i;
+
+	always @(posedge clock) begin
+		if (reset) begin
+			for (i = 0; i < 8; i = i + 1)
+				bins[i] <= {14{1'b0}};
+		end
+
+		if (enable)
+			bins[data_in / 32] <= bins[data_in / 32] + 1;
+
+		hist_out = bins[hist_addr];
+	end
+endmodule

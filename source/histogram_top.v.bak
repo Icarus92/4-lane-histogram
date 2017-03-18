@@ -1,0 +1,39 @@
+module histogram_top
+/* Parameter list */
+#(	parameter BIN_COUNT = 8,
+	parameter RAM_BIT_WIDTH = 32,
+	parameter BITS_PER_PIXEL = 8,
+	parameter IMAGE_PIXEL_COUNT = 128 * 128)
+/* Port list */
+(	input CLOCK_50,
+	/* Reset */
+	input [0:0] KEY,
+
+	/* UART */
+	input UART_RXD,
+	output UART_TXD
+);
+
+wire [RAM_BIT_WIDTH - 1:0] image_data_out;
+reg [IMAGE_PIXEL_COUNT / RAM_BIT_WIDTH * BITS_PER_PIXEL - 1:0] image_data_address;
+wire image_received;
+reg histogram_write_enable;
+reg [BIN_COUNT - 1:0] histogram_write_address;
+reg [15:0] histogram_data;
+reg histogram_transmit;
+
+Data_Distributer data_distributer (
+	.clk(CLOCK_50),
+	.reset(~KEY[0]),
+	.image_data_out(image_data_out),
+	.image_data_address(image_data_address),
+	.image_received(image_received),
+	.histogram_write_enable(histogram_write_enable),
+	.histogram_write_address(histogram_write_address),
+	.histogram_data(histogram_data),
+	.histogram_transmit(histogram_transmit),
+	.UART_TX(UART_TXD),
+	.UART_RX(UART_RXD)
+);
+
+endmodule

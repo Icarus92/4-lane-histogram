@@ -1,0 +1,8 @@
+{C:/Users/yagehu/Google Drive/UCD/2017_Spring/EEC180B/Lab 6/projects/histogram/tb/histogram_lane_tb.v} {1 {vlog -work work {C:/Users/yagehu/Google Drive/UCD/2017_Spring/EEC180B/Lab 6/projects/histogram/tb/histogram_lane_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module histogram_lane_tb
+
+Top level modules:
+	histogram_lane_tb
+
+} {} {}}
